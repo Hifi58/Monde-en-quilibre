@@ -1,0 +1,219 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@500&display=swap");
+/************************
+
+    VARIABLES DE PAGE
+
+*************************/
+/************************
+
+    PARAMETRES DE PAGE
+
+*************************/
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Kaisei Tokumin", serif;
+  background-color: #f5fbff;
+}
+
+/************************
+
+    HEADER & NAVIGATION
+
+*************************/
+header {
+  min-height: 30vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-shadow: 0 2px 10px 0 #272525;
+          box-shadow: 0 2px 10px 0 #272525;
+  color: #272525;
+  text-transform: uppercase;
+}
+
+header span {
+  color: #2978ae;
+}
+
+/************************
+
+    CORPS DE PAGE INDEX
+
+*************************/
+section {
+  margin-top: 2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-shadow: 0 4px 10px 0 #272525;
+          box-shadow: 0 4px 10px 0 #272525;
+}
+
+section h2 {
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+section h3 {
+  margin-left: 1.5em;
+}
+
+section p {
+  letter-spacing: 2px;
+  word-spacing: 3px;
+  margin: 1em;
+}
+
+section button {
+  background: #f5fbff;
+  margin: auto 1.5em;
+  margin-bottom: 1em;
+  padding: 1em 1.5em;
+  font-family: "Kaisei Tokumin", serif;
+  font-size: 1.02em;
+  border: 1px solid #43c7aa;
+  border-radius: 2px;
+}
+
+section button:hover {
+  background: #43c7aa;
+}
+
+section a {
+  color: #272525;
+  text-decoration: none;
+}
+
+.wrapper img {
+  margin: 1em;
+  -webkit-box-shadow: 5px 5px 10px #b4b7cb;
+          box-shadow: 5px 5px 10px #b4b7cb;
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    min-height: 100vh;
+    background-image: url("images/bgindex.jpg");
+    background-size: cover;
+  }
+  header {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    width: 35%;
+    background: #06440e;
+    color: #f5fbff;
+    mix-blend-mode: multiply;
+  }
+  header h1 {
+    font-size: 4.8em;
+  }
+  header span {
+    color: #f5fbff;
+  }
+  header header::after {
+    content: '';
+  }
+  .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .container .wrapper {
+    background-color: #f5fbff;
+    margin: 2em;
+    padding: 1em;
+    border-radius: 5px;
+    -webkit-box-shadow: 10px 10px 20px #272525;
+            box-shadow: 10px 10px 20px #272525;
+    width: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+    line-height: 2;
+  }
+  section {
+    margin: 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    width: 65%;
+  }
+  section h2 {
+    font-size: 3em;
+  }
+  section img {
+    display: none;
+  }
+}
+
+/************************
+
+        FOOTER
+
+*************************/
+footer {
+  margin-top: 2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 20vh;
+  width: 100%;
+  background: #272525;
+  color: #f5fbff;
+}
+
+@media screen and (min-width: 1024px) {
+  footer {
+    display: none;
+    background: transparent;
+    width: 0;
+    height: 0vh;
+  }
+  footer p {
+    display: none;
+  }
+}
+/*# sourceMappingURL=style.css.map */
