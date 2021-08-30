@@ -183,6 +183,17 @@ section a {
   }
 }
 
+/***************************
+
+    CORPS DE PAGE BIOTOPES
+
+***************************/
+.wrapperbiotope {
+  -webkit-box-shadow: 0px 5px 20px #b4b7cb;
+          box-shadow: 0px 5px 20px #b4b7cb;
+  margin: 1em;
+}
+
 /************************
 
         FOOTER
